@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment Solution For Module 2</title>
+	<style>
+	body {
+		box-sizing: border-box;
+		font-family: Arial, Helvetica, sans-serif;
+		position: relative;
+
+	}
+	h1 {
+		text-align: center;
+	}
+	div {
+		background-color: gray;
+		border: 1px solid black;
+		margin: 15px;
+		padding-top: 0px;
+		position: relative;
+	}
+	.d2{
+		float: right;
+	}
+	.d3{
+		float: left;
+	}
+	p.title {
+		position: absolute;
+		text-align: center;
+		top: 0;
+		right: 0;
+		border: 1px solid black;
+		width: 150px;
+		margin-top: 0px;
+		font-size: 150%;
+	}
+	p.content {
+		padding: 20px 10px 10px 10px;
+	}
+	@media (min-width: 992px){
+		.d1 {
+			width: 30%;
+			float: left;
+		}
+		.d2 {
+			float: left;
+			width: 30%;
+		}
+		.d3 {
+			float: left;
+			width: 30%;
+		}
+	}
+	@media (min-width: 768px) and  (max-width: 991px) {
+		.d1 {
+			width: 45%;
+			float: left;
+		}
+		.d2 {
+			width: 45%;
+			float: left;
+		}
+		.d3 {
+			width: 93%;
+			clear: both;
+		}
+	}
+	@media (max-width: 767px){
+		.d1 {
+			width: 95%;
+			float: left;
+			clear: both;
+		}
+		.d2 {
+			width: 95%;
+			float: left;
+			clear: both;
+		}
+		.d3 {
+			width: 95%;
+			float: left;
+			clear: both;
+		}
+	}
+
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class="d1">
+		<p>
+			<p class="title" style="background-color: #FF6868 ">Chicken</p>
+			<p class="content">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</p>
+	</div>
+	<div class="d2">
+		<p>
+			<p class="title" style="background-color: #FF2419">Beef</p>
+			<p class="content">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</p>
+	</div>
+	<div class="d3">
+		<p>
+			<p class="title" style="background-color: #F0B400">Sushi</p>
+			<p class="content">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</p>
+	</div>
+</body>
+</html>
